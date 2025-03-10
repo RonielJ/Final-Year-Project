@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-10 10:37:05 by Eclipse SUMO libsumo Version 1.21.0
+<libsumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/libsumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/mnt/c/Users/ronie/Downloads/FinalYearProject/FinalYearProject/./sumo_datasets/test_three_34/env/3phases.net.xml"/>
+        <route-files value="/mnt/c/Users/ronie/Downloads/FinalYearProject/FinalYearProject/./sumo_datasets/test_three_34/routes/4.rou.xml"/>
+        <additional-files value="/mnt/c/Users/ronie/Downloads/FinalYearProject/FinalYearProject/./sumo_datasets/test_three_34/env/../detectors/e1_internal.add.xml,/mnt/c/Users/ronie/Downloads/FinalYearProject/FinalYearProject/./sumo_datasets/test_three_34/env/ ../detectors/e2.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="10000"/>
+        <max-depart-delay value="100000"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</libsumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
